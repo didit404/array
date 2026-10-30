@@ -7,7 +7,7 @@ int main(){
     vector<string> tas={"pedang kayu", "perisai besi"};
     tas.insert(tas.begin(),"potion darah");
     tas.insert(tas.begin() + 2, "busur panah");
-    tas.erase(tas.begin());
+    tas.pop_back();
     cout << "isi tas: ";
     for(string item: tas){
         cout << item << " ";
